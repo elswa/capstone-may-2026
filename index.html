@@ -3,36 +3,62 @@
   <head>
     <title>Capstone</title>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- The top bun is the header -->
-    <header>
+    <header id="header">
       <h1>Auntie's Coffee Shop</h1>
       <p>Where are all your coffee dreams come true.</p>
+      <a href="./pages/food.html">Auntie's Food</a>
     </header>
     <main>
       <section>
         <h2>Hot Drinks</h2>
-        <p>Here are Auntie's hot drinks</p>
-        <ul>
-          <li>Red Rose Tea</li>
-          <li>Coffee</li>
-          <li>Latte</li>
-        </ul>
+        <h3>Here are auntie's hot drinks:</h3>
+        <p>Red Rose Tea</p>
+        <p>Coffee</p>
+        <!-- Here is an example of a absolute path -->
+        <img
+          src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Image of a coffee"
+          width="200"
+        />
+        <p>This image is courtesy of:</p>
       </section>
       <section>
         <h2>Cold Drinks</h2>
-        <p>Here are Auntie's cold drinks</p>
-        <ol>
-          <li>Iced Tea</li>
-          <li>Bepsi</li>
-          <li>Lemonade</li>
-          <li>Cold Coffee</li>
-        </ol>
+        <h3>Here are auntie's cold drinks:</h3>
+        <p>Bepsi</p>
+        <img
+          src="./images/bepsi-Ruby-Bruce.jpg"
+          alt="Art of bepsi from Ruby Bruce an indigenous artist"
+          width="200"
+        />
+        <p>
+          Art from Ruby Bruce:
+          <a href="https://www.instagram.com/p/CnGi_Hbs0Fm/" target="_blank"
+            >Photo on Instagram</a
+          >
+        </p>
+        <p>Iced Coffee</p>
+        <!-- Here is an example of a relative path -->
+        <img
+          src="./images/iced-coffee.jpg"
+          alt="Image of an iced coffee"
+          width="200"
+        />
       </section>
     </main>
     <footer>
-      <p>This website was created by: Elle Swampy</p>
+      <p class="footer-paragraph">This website was created by: Elle Swampy</p>
+      <a href="#header">Back to top</a>
     </footer>
   </body>
 </html>

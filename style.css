@@ -1,0 +1,26 @@
+body {
+  background-color: #51833b;
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-family: "Archivo Black", sans-serif;
+}
+
+header {
+  background-color: rgb(214, 198, 150);
+  color: white;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+section {
+  background-color: #24540f;
+}
+
+p {
+  color: purple;
+}
+
+.footer-paragraph {
+  color: orange;
+}
