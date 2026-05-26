@@ -1,26 +1,50 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  /* font-family: "Archivo Black", sans-serif; */
+  /* font-family: "Bebas Neue", sans-serif; */
+  font-family: Helvetica, Arial, sans-serif, roboto-sans;
+}
+
 body {
   background-color: #51833b;
-  /* font-family: "Bebas Neue", sans-serif; */
-  font-family: "Archivo Black", sans-serif;
+  color: beige;
 }
 
 header {
-  background-color: rgb(214, 198, 150);
-  color: white;
+  color: red;
 }
 
-h1 {
-  font-family: "Bebas Neue", sans-serif;
+/* ID's override class and element selectors. They're the most specific selector in CSS */
+#id-paragraph {
+  color: blue;
 }
 
-section {
-  background-color: #24540f;
+/* Classes are a more specific selector than an element type selector */
+.footer-paragraph {
+  color: orange;
+  font-weight: light;
 }
 
 p {
-  color: purple;
+  color: pink;
 }
 
-.footer-paragraph {
-  color: orange;
+a {
+  color: rgb(201, 201, 149);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: pink;
+}
+
+footer a:hover {
+  color: pink;
+  background-color: #51833b;
+}
+
+a:active {
+  color: red;
 }
